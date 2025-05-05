@@ -1,4 +1,4 @@
-
+# Obsidian.md-1.8.4-Privacy-Forensic-Analysis
 # Table of Contents
 
 - [Concept](#Concept)
@@ -10,7 +10,7 @@
 ---
 
 
-# Obsidian.md-1.8.4-Privacy-Forensic-Analysis
+
 <h2>#Concept</h2>
 <h3>What is <a href="https://obsidian.md">Obsidian</a>?:</h3> 
 Privacy Focused Note taking application
@@ -42,7 +42,7 @@ Privacy Focused Note taking application
 <h2>#Overview</h2> 
 
 | I will be focusing on gathering information involving internet connection to confirm if Obsidian.md is a good choice for privacy-concerned individuals. I will be focusing on finding all files found on the local system, the permissions in the apk file, database information when it concerns the web and modules utilized within the actual application to see if they are problematic. |
-|----------------------------|
+|-|
 
 
 
@@ -59,7 +59,7 @@ The second acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-p
 <h3>Acquistion 1 Actions in Order:</h3>
 
 | **Time/Date**|**Action Taken**|
-|----------------------|-------------------------------------------------------------------|
+|-|-|
 | 19:07 EDT 04/06/2025|Turn On Phone|
 | 19:10 EDT 04/06/2025|Unlock Phone|
 | 19:35 EDT 04/06/2025|Install APP through ADB|
@@ -82,7 +82,7 @@ The second acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-p
 <h3>Acquistion 2 Actions in Order:</h3>
 
 | **Time/Date**|**Action Taken**|
-|----------------------|-------------------------------------------------------------------|
+|-|-|
 | 22:00 EDT 05/04/2025|Turn On Phone|
 | 22:05 EDT 05/04/2025|Unlock Phone|
 | 22:10 EDT 05/04/2025|Install APP through ADB|
@@ -103,7 +103,7 @@ The second acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-p
 
 Now that we know where to look, we can now extract these artifacts and parse through the data!
 | Location: | Why is this important? |
-|---|---|
+|-|-|
 | /data/app/~~J4PHE12PKyRx8lrqqstftQ==/md.obsidian-LV_ft233GdUFJTmDP_6PRA==/base.apk | The installed application apk file |
 | /data/data/md.obsidian/app_webview/Default/ | Databases, Cookies, the leveldb file and Web Data |
 | /sdcard/Documents/ObsidianVault/ | The actual md files and directories made from Obsidian.md |
