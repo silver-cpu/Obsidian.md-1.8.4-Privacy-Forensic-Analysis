@@ -146,7 +146,7 @@ total 4
 |**workspace-mobile.json**: The json map of the connections/organization of the notes| <img src="./Images/workspace-mobile.png" width="400" /> |
 |**Note1.md**: The first note we made|```Lorem ipsum```<br>```[[Note2]] ```|
 |**Note2.md**: The second note we made and put into ObsFolder1|``` Ipsum lorem```<br>```![[Screenshot_20250504-230510.png]] ```|
-|**Screenshot_20250504-230510.png**: A copy of the screenshot we attached to Note2.md| ![screenshot](./Images/Screenshot_20250504-230510.png)|
+|**Screenshot_20250504-230510.png**: A copy of the screenshot we attached to Note2.md| <img src="./Images/Screenshot_20250504-230510.png" width="300"/>|
 
 <h3>.../base.apk</h3>
 There are many artifacts within this apk file, which is a duplicate of the original Obsidian
@@ -165,6 +165,7 @@ There are many artifacts within this apk file, which is a duplicate of the origi
 
 <h3>/md.obsidian/app_webview/Default/</h3>
 Shows no data being stored within the databases involving Web Data nor Cookies.
+
 |Items of Note|Purpose|
 |-|-|
 |Databases.db|-|
