@@ -105,6 +105,12 @@ This was done with 5 minute intervals and the following timed script:
 | 23:20 EDT 05/04/2025 | Force Stop Application from running in background in app settings |
 
 Now that we know where to look, we can now extract these artifacts and parse through the data!
+| Location: | Why is this important? |
+|---|---|
+| /data/app/~~J4PHE12PKyRx8lrqqstftQ==/md.obsidian-LV_ft233GdUFJTmDP_6PRA==/base.apk | the installed application apk file |
+| /data/data/md.obsidian/app_webview/Default/ | databases, Cookies, the leveldb file and Web Data |
+| /sdcard/Documents/ObsidianVault/ | The actual md files and directories made from Obsidian.md |
+
 
 <hr>
 
@@ -112,6 +118,15 @@ Now that we know where to look, we can now extract these artifacts and parse thr
 <h2>#Analysis</h2>
 Here is what I found!
 <!--what did i do specifically to gather the information and stuff-->
+<h3>/sdcard/Documents/ObsidianVault/</h3>
+
+
+
+<h3>.../base.apk</h3>
+
+
+<h3>/md.obsidian/app_webview/Default/</h3>
+
 
 
 <hr>
