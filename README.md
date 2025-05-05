@@ -119,11 +119,33 @@ Now that we know where to look, we can now extract these artifacts and parse thr
 Here is what I found!
 <!--what did i do specifically to gather the information and stuff-->
 <h3>/sdcard/Documents/ObsidianVault/</h3>
+Within directory are the following files:
 
+```
 
+ls -alR /sdcard/Documents/ObsidianVault
+/sdcard/Documents/ObsidianVault:
+total 66
+drwxrwx--- 2 root everybody  3452 2025-05-04 22:25 .obsidian
+-rw-rw---- 1 root everybody    22 2025-05-04 22:40 Note1.md
+drwxrwx--- 2 root everybody  3452 2025-05-04 23:00 ObsFolder1
+-rw-rw---- 1 root everybody 56530 2025-05-04 23:10 Screenshot_20250504-230510.png
+
+/sdcard/Documents/ObsidianVault/.obsidian:
+total 16
+-rw-rw---- 1 root everybody    2 2025-05-04 22:25 app.json
+-rw-rw---- 1 root everybody    2 2025-05-04 22:25 appearance.json
+-rw-rw---- 1 root everybody  636 2025-05-04 22:25 core-plugins.json
+-rw-rw---- 1 root everybody 3884 2025-05-04 23:10 workspace-mobile.json
+
+/sdcard/Documents/ObsidianVault/ObsFolder1:
+total 4
+-rw-rw---- 1 root everybody 47 2025-05-04 23:10 Note2.md
 
 <h3>.../base.apk</h3>
+There are many artifacts within this apk file, which is a duplicate of the original Obsidian
 
+```
 
 <h3>/md.obsidian/app_webview/Default/</h3>
 
