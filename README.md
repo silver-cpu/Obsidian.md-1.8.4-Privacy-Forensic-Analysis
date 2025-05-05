@@ -46,7 +46,7 @@ Privacy focused note taking application with a large amount of customization fea
 <br><br><br>
 <h2>#Overview</h2> 
 
-| I will be focusing on gathering information involving internet connection to confirm if Obsidian.md is a good choice for privacy-concerned individuals. I will be focusing on finding all files found on the local system, the permissions in the apk file, database information when it concerns the web and modules utilized within the actual application to see if they are problematic. I will be utilizing a rooted Google Pixel 4a Android Version 13 Phone for this Forensic Analysis. |
+| I will be focusing on gathering information involving internet connection to confirm if Obsidian.md Update 1.8.4 Android Application is a good choice for privacy-concerned individuals. I will be focusing on finding all files found on the local system, the permissions in the apk file, database information when it concerns the web and modules utilized within the actual application to see if they are problematic. I will be utilizing a rooted Google Pixel 4a Android Version 13 Phone for this Forensic Analysis. |
 |-|
 
 
