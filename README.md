@@ -5,17 +5,18 @@
 Privacy Focused Note taking application
 <h3>What is it used for?:</h3>
 Notes, Journaling, Research, Brainstorming and Visualization.
-<img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" width="500"  />
+<img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" href="https://obsidian.md" width="500"  />
 <h3>What are they marketed as?: </h3>
-<img src="" alt="" width="500"  />
+<img src="https://github.com/user-attachments/assets/833bba08-713b-47b1-8d8e-4a178a751f95" alt="Screenshot of Ideas" href="" width="500"  />
 <ol>
 <li>Privacy focused</li>
+
 <li>No one else can read them.</li>
 <li>Entirely stored offline</li>
 <li>Quick, Easy Access</li>
 <li>Heavily Customizable</li>
 </ol>
-<img src="" alt="" width="500"  />
+<img src="" alt="" href="" width="500"  />
 <h3>What do they provide?: </h3>
 <ol>
 <li>Links between notes</li>
@@ -31,8 +32,8 @@ Notes, Journaling, Research, Brainstorming and Visualization.
 <li>Easy ability to Publish notes to web</li>
 <li>Theme customization</li>
 </ol>
-<img src="" alt="" width="500"  />
+<img src="" alt="" href="" width="500"  />
 <h3>How do I know them?: </h3>
 I actively use their Windows and Linux versions on PC for note taking.
-<img src="" alt="" width="500"  />
+<img src="" alt="" href="" width="500"  />
 <h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
