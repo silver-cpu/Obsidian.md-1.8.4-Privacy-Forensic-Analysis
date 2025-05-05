@@ -143,10 +143,10 @@ total 4
 ```
 |Purpose|Code|
 |-|-|
-|app.json: empty but based on context should be basic extra application configuration options |{}|
-|appearance.json: empty but based on context should be extra appearance configuration options |{}|
-|core-plugins.json: .obsidian houses the Obsidian Plugin Settings|{"file-explorer": true,"global-search": true,"switcher": true, "graph": true, "backlink": true, "canvas": true, "outgoing-link": true, "tag-pane": true, "properties": false, "page-preview": true, "daily-notes": true, "templates": true, "note-composer": true, "command-palette": true, "slash-command": false, "editor-status": true, "bookmarks": true, "markdown-importer": false, "zk-prefixer": false, "random-note": false, "outline": true, "word-count": true, "slides": false, "audio-recorder": false, "workspaces": false, "file-recovery": true, "publish": false, "sync": true} |
-|workspace-mobile.json: The json map of the connections/organization of the notes| ![workspace-mobile](./Images/workspace-mobile.png) |
+|**app.json**: empty but based on context should be basic extra application configuration options |{}|
+|**appearance.json**: empty but based on context should be extra appearance configuration options |{}|
+|**core-plugins.json**: .obsidian houses the Obsidian Plugin Settings|{"file-explorer": true,"global-search": true,"switcher": true, "graph": true, "backlink": true, "canvas": true, "outgoing-link": true, "tag-pane": true, "properties": false, "page-preview": true, "daily-notes": true, "templates": true, "note-composer": true, "command-palette": true, "slash-command": false, "editor-status": true, "bookmarks": true, "markdown-importer": false, "zk-prefixer": false, "random-note": false, "outline": true, "word-count": true, "slides": false, "audio-recorder": false, "workspaces": false, "file-recovery": true, "publish": false, "sync": true} |
+|**workspace-mobile.json**: The json map of the connections/organization of the notes| ![workspace-mobile](./Images/workspace-mobile.png) |
 
 <h3>.../base.apk</h3>
 There are many artifacts within this apk file, which is a duplicate of the original Obsidian
