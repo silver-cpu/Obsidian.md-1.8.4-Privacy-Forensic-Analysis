@@ -46,7 +46,7 @@ Privacy Focused Note taking application
 
 
 
-
+<hr>
 
 
 <h2>#Testing</h2>
@@ -76,26 +76,11 @@ This was done with 5 minute intervals and the following timed script:
 | 19:39 EDT 04/06/2025|Create a Folder named Folder|
 | 19:39 EDT 04/06/2025|New Note in Folder named V3|
 | 19:40 EDT 04/06/2025|Add [[V1]] to V3|
-| 19:41 EDT 04/06/2025|Screenshot the screen|
-| 19:42 EDT 04/06/2025|Insert Screenshot to V2|
+| 19:40 EDT 04/06/2025|New Note in Folder named V4|
+| 19:41 EDT 04/06/2025|Screenshot the File Explorer|
+| 19:42 EDT 04/06/2025|Insert Screenshot to V1|
 | 19:44 EDT 04/06/2025| Close Application |
 | 19:45 EDT 04/06/2025| Force Stop Application from running in background in app settings |
-
-1. Installed via adb install <apkfilename>
-2. Opened the application
-3. Chose to Make a new Vault
-4. Chose the storage location for documents folder
-5. Created a new note
-6. Connected the note to a new note that didn’t exist yet
-7. Opened the connection thus creating a note with that filename
-8. Created a Folder
-9. Created a note in that folder
-10. Connected that note to the very first note
-11. Created a second note in the folder
-12. Went to the 1st note in the folder and chose to attach an image
-13. Took a screenshot of the File Explorer
-14. Chose that image and inserted it into the 1st note in the folder
-
 
 <h3>**Acquistion 3** Actions in Order:</h3>
 
@@ -120,9 +105,15 @@ This was done with 5 minute intervals and the following timed script:
 | 23:20 EDT 05/04/2025 | Force Stop Application from running in background in app settings |
 
 
+<hr>
+
 
 <h2>#Analysis</h2>
 what did i do specifically to gather the information and stuff
+
+
+<hr>
+
 
 <h2>#References</h2>
 
