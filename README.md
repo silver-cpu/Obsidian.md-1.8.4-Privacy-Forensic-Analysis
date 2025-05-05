@@ -7,6 +7,7 @@
 - [Analysis](#Analysis)
 - [References](#References)
 - [Conclusion](#Conclusion)
+Last Updated: Monday, May 5, 2025 18:24:38
 
 ---
 
@@ -170,7 +171,6 @@ Shows no data being stored within the databases involving Web Data nor Cookies. 
 |/WebStorage/QuotaManager|Only table with values within is the "meta" data table.<br>Under "buckets":```storage_key:http://localhost/	host:localhost	type:0	name:default	use_count:3	last_accessed:13390885526734038	last_modified:13390888219954324```|
 |Cookies|Only table with values within is the "meta" data table. Nothing under "cookies".|
 |Web Data|Every table is empty besides "meta"<br><img src="./Images/webdata.png" />|
-|-|-|
 
 *(Used DB Browser for SQLite to open the database files)*
 
