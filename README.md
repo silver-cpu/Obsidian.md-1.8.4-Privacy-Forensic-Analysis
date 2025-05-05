@@ -5,7 +5,7 @@
 Privacy Focused Note taking application
 <h3>What is it used for?:</h3>
 Notes, Journaling, Research, Brainstorming and Visualization.
-<img src="" alt="" width="500"  />
+<img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" width="500"  />
 <h3>What are they marketed as?: </h3>
 <img src="" alt="" width="500"  />
 <ol>
