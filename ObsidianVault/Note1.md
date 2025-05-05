@@ -1,0 +1,2 @@
+Loren Ipsum
+[[Note2]]
