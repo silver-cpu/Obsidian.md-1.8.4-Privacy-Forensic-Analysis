@@ -6,6 +6,7 @@
 - [Testing](#Testing)
 - [Analysis](#Analysis)
 - [References](#References)
+- [Conclusion](#Conclusion)
 
 ---
 
@@ -13,7 +14,9 @@
 
 <h2>#Concept</h2>
 <h3>What is <a href="https://obsidian.md">Obsidian</a>?:</h3> 
-Privacy Focused Note taking application
+
+Privacy focused note taking application with a large amount of customization features that by default is entirely offline.
+
 <h3>What is it used for?:</h3>
 
 | Notes, Journaling, Research, Brainstorming and Visualization. | ![homepage](https://obsidian.md/images/screenshot-1.0-hero-combo.png) |
@@ -32,7 +35,7 @@ Privacy Focused Note taking application
 <h3>How did I learn about this tool?: </h3>
 
 | <div>While researching during college I became addicted to using the "red twine on pin board" technic, and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking.</div> | <img src="./Images/web.png" width="1000" /> |
-|-----------------|-----------------|
+|-|-|
 
 <h5><a href="https://obsidian.md/download">DownloadLink</a></h5>
 <h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
@@ -101,7 +104,7 @@ The second acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-p
 | 23:15 EDT 05/04/2025 | Close Application |
 | 23:20 EDT 05/04/2025 | Force Stop Application from running in background in app settings |
 
-Now that we know where to look, we can now extract these artifacts and parse through the data!
+Now that it is clear where to look, this can now extract these artifacts and parse through the data!
 | Location: | Why is this important? |
 |-|-|
 | /data/app/~~J4PHE12PKyRx8lrqqstftQ==/md.obsidian-LV_ft233GdUFJTmDP_6PRA==/base.apk | The installed application apk file |
@@ -144,9 +147,9 @@ total 4
 |**appearance.json**: empty but based on context should be extra appearance configuration options |```{}```|
 |**core-plugins.json**: .obsidian houses the Obsidian Plugin Settings|```{"file-explorer": true,"global-search": true,"switcher": true, "graph": true, "backlink": true, "canvas": true, "outgoing-link": true, "tag-pane": true, "properties": false, "page-preview": true, "daily-notes": true, "templates": true, "note-composer": true, "command-palette": true, "slash-command": false, "editor-status": true, "bookmarks": true, "markdown-importer": false, "zk-prefixer": false, "random-note": false, "outline": true, "word-count": true, "slides": false, "audio-recorder": false, "workspaces": false, "file-recovery": true, "publish": false, "sync": true}```|
 |**workspace-mobile.json**: The json map of the connections/organization of the notes| <img src="./Images/workspace-mobile.png" width="400" /> |
-|**Note1.md**: The first note we made|```Lorem ipsum```<br>```[[Note2]] ```|
-|**Note2.md**: The second note we made and put into ObsFolder1|``` Ipsum lorem```<br>```![[Screenshot_20250504-230510.png]] ```|
-|**Screenshot_20250504-230510.png**: A copy of the screenshot we attached to Note2.md| <img src="./Images/Screenshot_20250504-230510.png" width="300"/>|
+|**Note1.md**: The first note I made|```Lorem ipsum```<br>```[[Note2]] ```|
+|**Note2.md**: The second note I made and put into ObsFolder1|``` Ipsum lorem```<br>```![[Screenshot_20250504-230510.png]] ```|
+|**Screenshot_20250504-230510.png**: A copy of the screenshot I attached to Note2.md| <img src="./Images/Screenshot_20250504-230510.png" width="300"/>|
 
 <h3>.../base.apk</h3>
 There are many artifacts within this apk file, which is a duplicate of the original Obsidian.md apk file.
@@ -164,9 +167,11 @@ Shows no data being stored within the databases involving Web Data nor Cookies. 
 |Items of Note|Purpose|
 |-|-|
 |Databases.db|Only table with values within is the "meta" data table. Nothing under "Databases" or "sqlite_sequence".|
-|QuotaManager|Only table with values within is the "meta" data table.<br>Under "buckets":```storage_key:http://localhost/	host:localhost	type:0	name:default	use_count3	last_accessed:13390885526734038	last_modified:13390888219954324```|
+|/WebStorage/QuotaManager|Only table with values within is the "meta" data table.<br>Under "buckets":```storage_key:http://localhost/	host:localhost	type:0	name:default	use_count:3	last_accessed:13390885526734038	last_modified:13390888219954324```|
 |Cookies|Only table with values within is the "meta" data table. Nothing under "cookies".|
 |Web Data|Every table is empty besides "meta"<br><img src="./Images/webdata.png" />|
+|-|-|
+|-|-|
 |-|-|
 |-|-|
 
@@ -185,6 +190,12 @@ apk2url pulls string values from within all of the files of base.apk looking for
 
 <img src="./Images/notrealchineseipaddress.png" />
 *(A chinese telecom ip address false flag from the mermaid.min.js file.)*
+
+<br><br>
+<h2>#Conclusion</h2>
+Although Obsidian.md has the permission "android.permission.INTERNET" within AndroidManifest.xml I am not convinced that the application, without paying for and applying the sync features, connects to the internet without our knowledge. In the databases for specifically WebStorage, I found an address used as the "storage_key" although it was a localhost address, which does not connect to the internet. The application did not have ip addresses or domains within their java code that were not commented documentation explaining the source of a imported library or a link on their application to their own website. The files are saved in one location on your device in the place where I decided initially, it is not referenced anywhere else. All of their files are .md within folders, and are managed by a json file utilizing getcapacitor. I
+I believe that Obsidian.md is telling the truth
+
 
 <hr>
 <br><br><br>
