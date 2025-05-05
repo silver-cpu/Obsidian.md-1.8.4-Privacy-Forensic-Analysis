@@ -38,7 +38,7 @@ Privacy Focused Note taking application
 <h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
 
 <hr>
-
+<br><br><br>
 <h2>#Overview</h2> 
 
 | What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically |
@@ -47,7 +47,7 @@ Privacy Focused Note taking application
 
 
 <hr>
-
+<br><br><br>
 
 <h2>#Testing</h2>
 I preformed three acquisitions of data:
@@ -113,7 +113,7 @@ Now that we know where to look, we can now extract these artifacts and parse thr
 
 
 <hr>
-
+<br><br><br>
 
 <h2>#Analysis</h2>
 Here is what I found!
@@ -146,7 +146,7 @@ total 4
 |**app.json**: empty but based on context should be basic extra application configuration options |```{}```|
 |**appearance.json**: empty but based on context should be extra appearance configuration options |```{}```|
 |**core-plugins.json**: .obsidian houses the Obsidian Plugin Settings|```{"file-explorer": true,"global-search": true,"switcher": true, "graph": true, "backlink": true, "canvas": true, "outgoing-link": true, "tag-pane": true, "properties": false, "page-preview": true, "daily-notes": true, "templates": true, "note-composer": true, "command-palette": true, "slash-command": false, "editor-status": true, "bookmarks": true, "markdown-importer": false, "zk-prefixer": false, "random-note": false, "outline": true, "word-count": true, "slides": false, "audio-recorder": false, "workspaces": false, "file-recovery": true, "publish": false, "sync": true}```|
-|**workspace-mobile.json**: The json map of the connections/organization of the notes| ![workspace-mobile](./Images/workspace-mobile.png) |
+|**workspace-mobile.json**: The json map of the connections/organization of the notes| <img src="./Images/workspace-mobile.png" width="400" /> |
 |**Note1.md**: The first note we made|```Lorem ipsum```<br>```[[Note2]] ```|
 |**Note2.md**: The second note we made and put into ObsFolder1|``` Ipsum lorem```<br>```![[Screenshot_20250504-230510.png]] ```|
 |**Screenshot_20250504-230510.png**: A copy of the screenshot we attached to Note2.md| ![screenshot](./Images/Screenshot_20250504-230510.png)|
@@ -160,7 +160,7 @@ There are many artifacts within this apk file, which is a duplicate of the origi
 
 
 <hr>
-
+<br><br><br>
 
 <h2>#References</h2>
 <li>Tools Used: Andriller, ADB, Magisk, apktool, jadx-gui, apk2url, DB Browser for SQLite, grep, ls, powershell</li>
