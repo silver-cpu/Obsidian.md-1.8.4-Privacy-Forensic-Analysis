@@ -7,12 +7,12 @@ Privacy Focused Note taking application
 Notes, Journaling, Research, Brainstorming and Visualization.
 <img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" href="https://obsidian.md" width="500"  />
 <h3>What are they marketed as?: </h3>
-<img src="https://github.com/user-attachments/assets/833bba08-713b-47b1-8d8e-4a178a751f95" alt="Screenshot of Ideas" href="" width="500"  />
 <ol>
 <li>Privacy focused</li>
-
+  <ul>
 <li>No one else can read them.</li>
 <li>Entirely stored offline</li>
+    </ul>
 <li>Quick, Easy Access</li>
 <li>Heavily Customizable</li>
 </ol>
@@ -25,12 +25,13 @@ Notes, Journaling, Research, Brainstorming and Visualization.
 <li>Thousands of User Created Plugins</li>
 <li>Standardized non-proprietarily readable file types .md</li>
 <li>Paid-for service</li>
-<li>Syncing notes across devices</li>
+<ul>
+  <li>Syncing notes across devices</li>
 <li>End to end encryption</li>
 <li>Collaboration on shared vaults</li>
 <li>Publishing</li>
 <li>Easy ability to Publish notes to web</li>
-<li>Theme customization</li>
+  </ul>
 </ol>
 <img src="" alt="" href="" width="500"  />
 <h3>How do I know them?: </h3>
