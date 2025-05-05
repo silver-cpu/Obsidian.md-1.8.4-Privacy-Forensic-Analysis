@@ -15,19 +15,18 @@ Privacy Focused Note taking application
 
 <h3>What do they provide?: </h3>
 
-| <ol><li>Links between notes</li><li>PinBoard-Like Visualizer Graph for Interactive Ideas</li><li>Canvas for diagramming and brainstorming ideas</li><li>Thousands of User Created Plugins</li><li>Standardized non-proprietarily readable file types .md</li><li>Paid-for service</li><ul><li>Syncing notes across devices</li><li>End to end encryption</li><li>Collaboration on shared vaults</li><li>Publishing</li><li>Easy ability to Publish notes to web</li></ul></ol> | ![sync settings](https://obsidian.md/images/sync-settings.png) |
+| <div width="500"><ol><li>Links between notes</li><li>PinBoard-Like Visualizer Graph for Interactive Ideas</li><li>Canvas for diagramming and brainstorming ideas</li><li>Thousands of User Created Plugins</li><li>Standardized non-proprietarily readable file types .md</li><li>Paid-for service</li><ul><li>Syncing notes across devices</li><li>End to end encryption</li><li>Collaboration on shared vaults</li><li>Publishing</li><li>Easy ability to Publish notes to web</li></ul></ol></div> | <img src="https://obsidian.md/images/sync-settings.png" width="600" /> |
 |---------------------------------------|-----------------------------------------------------------|
 
 <h3>How did I learn about this tool?: </h3>
 
-| While researching during college I became addicted to using the "red twine on pin board" technic, and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking. | ![Download Options](./Images/DownloadOptions.png) |
+| While researching during college I became addicted to using the "red twine on pin board" technic, and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking. | <img src="./Images/DownloadOptions.png" width="600" /> |
 |---------------------------------------|-----------------------------------------------------------|
 
 <h5><a href="https://obsidian.md/download">DownloadLink</a></h5>
 <h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
 
-
-
+<hr>
 
 <h2>Overview:</h2> 
 What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically
