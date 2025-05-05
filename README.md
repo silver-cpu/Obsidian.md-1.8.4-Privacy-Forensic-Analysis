@@ -149,42 +149,41 @@ total 4
 |**Screenshot_20250504-230510.png**: A copy of the screenshot we attached to Note2.md| <img src="./Images/Screenshot_20250504-230510.png" width="300"/>|
 
 <h3>.../base.apk</h3>
-There are many artifacts within this apk file, which is a duplicate of the original Obsidian
+There are many artifacts within this apk file, which is a duplicate of the original Obsidian.md apk file.
 
 |Items of Note|Purpose|
 |-|-|
 | **AndroidManifest.xml** |Defines permissions within the application: <br>android.permission.INTERNET<br>android.permission.READ_EXTERNAL_STORAGE<br>android.permission.WRITE_EXTERNAL_STORAGE<br>android.permission.MANAGE_EXTERNAL_STORAGE<br>android.permission.RECORD_AUDIO<br>android.permission.MODIFY_AUDIO_SETTINGS<br>android.permission.VIBRATE|
 |**classes.dex**| Houses the Java Code and packages involved:<br>getcapacitor (allows for the ability to use HTML/CSS/JS files and run them natively<br>helps Obsidian call and store data with json files)|
-|** **| |
-|** **| |
-|** **| |
-|** **| |
-|** **| |
 
 *(These were opened using jadx-gui for Windows)*
 
 <h3>/md.obsidian/app_webview/Default/</h3>
-Shows no data being stored within the databases involving Web Data nor Cookies.
+Shows no data being stored within the databases involving Web Data nor Cookies. There was nothing of note within the filled "meta" tables.
 
 |Items of Note|Purpose|
 |-|-|
-|Databases.db|-|
-|QuotaManager|Only table with values within is the "Meta" data table.|
-|Cookies|-|
-|Web Data|Every table is empty besides "Meta"<br><img src="./Images/webdata.png" />|
+|Databases.db|Only table with values within is the "meta" data table. Nothing under "Databases" or "sqlite_sequence".|
+|QuotaManager|Only table with values within is the "meta" data table.<br>Under "buckets":```storage_key:http://localhost/	host:localhost	type:0	name:default	use_count3	last_accessed:13390885526734038	last_modified:13390888219954324```|
+|Cookies|Only table with values within is the "meta" data table. Nothing under "cookies".|
+|Web Data|Every table is empty besides "meta"<br><img src="./Images/webdata.png" />|
 |-|-|
 |-|-|
 
 *(Used DB Browser for SQLite to open the database files)*
 
 <h3>apk2url</h3>
+apk2url pulls string values from within all of the files of base.apk looking for exclusively mentioned urls and ip addresses.
 
 |Items of Note|Purpose|
 |-|-|
-|Obsidian.md Links|-|
-|IPs to other countries|-|
-|-|-|
+|Obsidian.md Links|To be expected there are many links from the App back to the Obsidian website.|
+|IPs to other countries|There was an issue with the script where due to the end of Javascript file having a large amount of numbers separated by ".", there is a large list of "not actual ip address".|
+|Example Domains|"www.example.com", these are not to be concerned of and are never called, mentioned within comments.|
+|Module Script Domains|To be expected, module and library scripts will have links back to where they came from.|
+|<img src="./Images/url1.png" />|<img src="./Images/url2.png" />|
 
+<img src="./Images/notrealchineseipaddress.png" />
 
 <hr>
 <br><br><br>
