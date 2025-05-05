@@ -6,7 +6,7 @@ Privacy Focused Note taking application
 <h3>What is it used for?:</h3>
 Notes, Journaling, Research, Brainstorming and Visualization.
 <img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" width="500"  />
-<h3>What are they marketed as?: </h3>
+<h3>What does Obsidian marketed for?: </h3>
 <ol>
 <li>Privacy focused</li>
   <ul>
@@ -16,6 +16,7 @@ Notes, Journaling, Research, Brainstorming and Visualization.
 <li>Quick, Easy Access</li>
 <li>Heavily Customizable</li>
 </ol>
+<img src="./Images/MarketedOptions.png" alt="Marketed Options Provided" width="500"  />
 <h3>What do they provide?: </h3>
 <ol>
 <li>Links between notes</li>
@@ -32,8 +33,10 @@ Notes, Journaling, Research, Brainstorming and Visualization.
 <li>Easy ability to Publish notes to web</li>
   </ul>
 </ol>
-<img src="" alt="" href="" width="500"  />
-<h3>How do I know them?: </h3>
-I actively use their Windows and Linux versions on PC for note taking.
-<img src="" alt="" href="" width="500"  />
+<img src="https://obsidian.md/images/sync-settings.png" alt="Sync Settings" height="500"  />
+<h3>How did I learn about this tool?: </h3>
+While researching during college I became addicted to using the "red twine on pin board" technic,
+and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking.
+<img src="./Images/DownloadOptions.png" alt="Download Options" width="500"  />
+<h5><a href="https://obsidian.md/download">DownloadLink</a></h5>
 <h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
