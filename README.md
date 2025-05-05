@@ -57,10 +57,10 @@ This was done to get a good idea of what I was working with starting out while a
 Second an acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
 This was done to get a starting point to any and all changes that the Obsidian.md application makes within the file system.
 
-The Third and final acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md
+The Third and final acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md.
 This was done with 5 minute intervals and the following timed script:
 
-<h3>**Acquistion 2** Actions in Order:</h3>
+<h3>Acquistion 2 Actions in Order:</h3>
 
 | **Time/Date**|**Action Taken**|
 |----------------------|-------------------------------------------------------------------|
@@ -82,7 +82,7 @@ This was done with 5 minute intervals and the following timed script:
 | 19:44 EDT 04/06/2025| Close Application |
 | 19:45 EDT 04/06/2025| Force Stop Application from running in background in app settings |
 
-<h3>**Acquistion 3** Actions in Order:</h3>
+<h3>Acquistion 3 Actions in Order:</h3>
 
 | **Time/Date**|**Action Taken**|
 |----------------------|-------------------------------------------------------------------|
@@ -104,6 +104,8 @@ This was done with 5 minute intervals and the following timed script:
 | 23:15 EDT 05/04/2025 | Close Application |
 | 23:20 EDT 05/04/2025 | Force Stop Application from running in background in app settings |
 
+After the third acquisition, the 
+
 
 <hr>
 
@@ -116,6 +118,8 @@ what did i do specifically to gather the information and stuff
 
 
 <h2>#References</h2>
-
+Tools Used: Andriller, ADB, Magisk, apktool, jadx-gui, apk2url, DB Browser for SQLite, grep, ls, powershell
+Jacobs, J. (2025, January 20). Reverse Engineering Chinese Social Media for Fun (REDNote App). Medium. <a href="https://infosecwriteups.com/reverse-engineering-chinese-social-media-for-fun-rednote-app-4c9871006c6c">https://infosecwriteups.com/reverse-engineering-chinese-social-media-for-fun-rednote-app-4c9871006c6c</a>
+(Thank you Jason Jacobs, MSc., with your rednote reverse engineering it introduced me to a couple tools that helped me complete this project!)
 
 
