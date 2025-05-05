@@ -164,12 +164,13 @@ There are many artifacts within this apk file, which is a duplicate of the origi
 *(These were opened using jadx-gui for Windows)*
 
 <h3>/md.obsidian/app_webview/Default/</h3>
+Shows no data being stored within the databases involving Web Data nor Cookies.
 |Items of Note|Purpose|
 |-|-|
 |Databases.db|-|
-|QuotaManager|-|
+|QuotaManager|Only table with values within is the "Meta" data table.|
 |Cookies|-|
-|Web Data|-|
+|Web Data|Every table is empty besides "Meta"<br><img src="./Images/webdata.png" />|
 |-|-|
 |-|-|
 
@@ -180,9 +181,8 @@ There are many artifacts within this apk file, which is a duplicate of the origi
 |Items of Note|Purpose|
 |-|-|
 |-|-|
-
-<h3>databases</h3>
-
+|-|-|
+|-|-|
 
 
 <hr>
