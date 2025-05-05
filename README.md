@@ -17,22 +17,22 @@ Privacy Focused Note taking application
 <h3>What is it used for?:</h3>
 
 | Notes, Journaling, Research, Brainstorming and Visualization. | ![homepage](https://obsidian.md/images/screenshot-1.0-hero-combo.png) |
-|---------------------------------------|-----------------------------------------------------------|
+|---------------|---------------------------------|
 
 <h3>What does Obsidian marketed for?: </h3>
 
 | <ol><li>Privacy focused</li><ul><li>No one else can read them.</li><li>Entirely stored offline</li></ul><li>Quick, Easy Access</li><li>Heavily Customizable</li></ol> | ![options](./Images/MarketedOptions.png) |
-|---------------------------------------|-----------------------------------------------------------|
+|-----------|------|
 
 <h3>What do they provide?: </h3>
 
 | <div width="500"><ol><li>Links between notes</li><li>PinBoard-Like Visualizer Graph for Interactive Ideas</li><li>Canvas for diagramming and brainstorming ideas</li><li>Thousands of User Created Plugins</li><li>Standardized non-proprietarily readable file types .md</li><li>Paid-for service</li><ul><li>Syncing notes across devices</li><li>End to end encryption</li><li>Collaboration on shared vaults</li><li>Publishing</li><li>Easy ability to Publish notes to web</li></ul></ol></div> | <img src="https://obsidian.md/images/sync-settings.png" width="600" /> |
-|---------------------------------------|-----------------------------------------------------------|
+|-------|--|
 
 <h3>How did I learn about this tool?: </h3>
 
 | <div>While researching during college I became addicted to using the "red twine on pin board" technic, and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking.</div> | <img src="./Images/web.png" width="1000" /> |
-|---------------------------------------|-----------------------------------------------------------|
+|-----------------|-----------------|
 
 <h5><a href="https://obsidian.md/download">DownloadLink</a></h5>
 <h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
@@ -42,7 +42,7 @@ Privacy Focused Note taking application
 <h2>#Overview</h2> 
 
 | What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically |
-|--------------------------------------------------------------------------------------------------|
+|----------------------------|
 
 
 
@@ -50,17 +50,13 @@ Privacy Focused Note taking application
 <br><br><br>
 
 <h2>#Testing</h2>
-I preformed three acquisitions of data:
-The first test acquisition to see what I could get with a rooted emulated Pixel 3 Android V.13 phone with andriller:
-This was done to get a good idea of what I was working with starting out while awaiting the phone I was ordering in the mail.
-
-The second Acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
+I preformed two acquisitions of data:
+The first Acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
 This was done to get a starting point to any and all changes that the Obsidian.md application makes within the file system.
 
-The Third and final acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md.
-This was done with 5 minute intervals and the following timed script:
+The second acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md. This was done with 5 minute intervals and the following timed script.
 
-<h3>Acquistion 2 Actions in Order:</h3>
+<h3>Acquistion 1 Actions in Order:</h3>
 
 | **Time/Date**|**Action Taken**|
 |----------------------|-------------------------------------------------------------------|
@@ -82,7 +78,8 @@ This was done with 5 minute intervals and the following timed script:
 | 19:44 EDT 04/06/2025| Close Application |
 | 19:45 EDT 04/06/2025| Force Stop Application from running in background in app settings |
 
-<h3>Acquistion 3 Actions in Order:</h3>
+
+<h3>Acquistion 2 Actions in Order:</h3>
 
 | **Time/Date**|**Action Taken**|
 |----------------------|-------------------------------------------------------------------|
@@ -156,10 +153,35 @@ There are many artifacts within this apk file, which is a duplicate of the origi
 
 |Items of Note|Purpose|
 |-|-|
-| | |
-| | |
+| **AndroidManifest.xml** |Defines permissions within the application: <br>android.permission.INTERNET<br>android.permission.READ_EXTERNAL_STORAGE<br>android.permission.WRITE_EXTERNAL_STORAGE<br>android.permission.MANAGE_EXTERNAL_STORAGE<br>android.permission.RECORD_AUDIO<br>android.permission.MODIFY_AUDIO_SETTINGS<br>android.permission.VIBRATE|
+|**classes.dex**| Houses the Java Code and packages involved:<br>getcapacitor (allows for the ability to use HTML/CSS/JS files and run them natively<br>helps Obsidian call and store data with json files)|
+|** **| |
+|** **| |
+|** **| |
+|** **| |
+|** **| |
+
+*(These were opened using jadx-gui for Windows)*
 
 <h3>/md.obsidian/app_webview/Default/</h3>
+|Items of Note|Purpose|
+|-|-|
+|Databases.db|-|
+|QuotaManager|-|
+|Cookies|-|
+|Web Data|-|
+|-|-|
+|-|-|
+
+*(Used DB Browser for SQLite to open the database files)*
+
+<h3>apk2url</h3>
+
+|Items of Note|Purpose|
+|-|-|
+|-|-|
+
+<h3>databases</h3>
 
 
 
