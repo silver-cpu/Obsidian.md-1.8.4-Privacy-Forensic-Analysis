@@ -1,7 +1,7 @@
 # Obsidian.md-1.8.4-Privacy-Forensic-Analysis
 
 CONCEPT:
-What is Obsidian?: 
+1. What is Obsidian?: 
 Privacy Focused Note taking application
 What is it used for?: 
 Notes, Journaling, Research
