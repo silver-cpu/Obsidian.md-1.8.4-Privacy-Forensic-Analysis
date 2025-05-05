@@ -4,8 +4,8 @@
 <h3>What is Obsidian?:</h3> 
 Privacy Focused Note taking application
 <h3>What is it used for?:</h3>
+Notes, Journaling, Research, Brainstorming and Visualization.
 <img  />
-Notes, Journaling, Research
 <h3>What are they marketed as?: </h3>
 <img  />
 <ol>
