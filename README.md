@@ -118,8 +118,8 @@ what did i do specifically to gather the information and stuff
 
 
 <h2>#References</h2>
-Tools Used: Andriller, ADB, Magisk, apktool, jadx-gui, apk2url, DB Browser for SQLite, grep, ls, powershell
-Jacobs, J. (2025, January 20). Reverse Engineering Chinese Social Media for Fun (REDNote App). Medium. <a href="https://infosecwriteups.com/reverse-engineering-chinese-social-media-for-fun-rednote-app-4c9871006c6c">https://infosecwriteups.com/reverse-engineering-chinese-social-media-for-fun-rednote-app-4c9871006c6c</a>
+<li>Tools Used: Andriller, ADB, Magisk, apktool, jadx-gui, apk2url, DB Browser for SQLite, grep, ls, powershell</li>
+<li>Jacobs, J. (2025, January 20). Reverse Engineering Chinese Social Media for Fun (REDNote App). Medium. <a href="https://infosecwriteups.com/reverse-engineering-chinese-social-media-for-fun-rednote-app-4c9871006c6c">https://infosecwriteups.com/reverse-engineering-chinese-social-media-for-fun-rednote-app-4c9871006c6c</a></li>
 (Thank you Jason Jacobs, MSc., with your rednote reverse engineering it introduced me to a couple tools that helped me complete this project!)
 
 
