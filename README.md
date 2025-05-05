@@ -35,4 +35,4 @@ Notes, Journaling, Research, Brainstorming and Visualization.
 <h3>How do I know them?: </h3>
 I actively use their Windows and Linux versions on PC for note taking.
 <img src="" alt="" width="500"  />
-<h5>The images provided were from the <a src="https://obsidian.md">Obsidian.md</a> webiste</h5>
+<h5>The images provided were from the <a href="https://obsidian.md">Obsidian.md</a> webiste</h5>
