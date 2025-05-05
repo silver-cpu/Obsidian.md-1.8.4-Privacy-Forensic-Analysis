@@ -44,7 +44,7 @@ Privacy focused note taking application with a large amount of customization fea
 <br><br><br>
 <h2>#Overview</h2> 
 
-| I will be focusing on gathering information involving internet connection to confirm if Obsidian.md is a good choice for privacy-concerned individuals. I will be focusing on finding all files found on the local system, the permissions in the apk file, database information when it concerns the web and modules utilized within the actual application to see if they are problematic. |
+| I will be focusing on gathering information involving internet connection to confirm if Obsidian.md is a good choice for privacy-concerned individuals. I will be focusing on finding all files found on the local system, the permissions in the apk file, database information when it concerns the web and modules utilized within the actual application to see if they are problematic. I will be utilizing a rooted Google Pixel 4a Android Version 13 Phone for this Forensic Analysis. |
 |-|
 
 
@@ -54,10 +54,10 @@ Privacy focused note taking application with a large amount of customization fea
 
 <h2>#Testing</h2>
 I preformed two acquisitions of data:
-The first Acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
+The first Acquisition of the rooted Pixel 4a to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
 This was done to get a starting point to any and all changes that the Obsidian.md application makes within the file system.
 
-The second acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md. This was done with 5 minute intervals and the following timed script.
+The second acquisition was of the same rooted Pixel 4a Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md. This was done with 5 minute intervals and the following timed script.
 
 <h3>Acquistion 1 Actions in Order:</h3>
 
@@ -191,7 +191,7 @@ apk2url pulls string values from within all of the files of base.apk looking for
 <br><br>
 <h2>#Conclusion</h2>
 Although Obsidian.md has the permission "android.permission.INTERNET" within AndroidManifest.xml I am not convinced that the application, without paying for and applying the sync features, connects to the internet without our knowledge. In the databases for specifically WebStorage, I found an address used as the "storage_key" although it was a localhost address, which does not connect to the internet. The application did not have ip addresses or domains within their java code that were not commented documentation explaining the source of a imported library or a link on their application to their own website. The files are saved in one location on your device in the place where I decided initially, it is not referenced anywhere else. All of their files are .md within folders, and are managed by a json file utilizing getcapacitor. A likely situation if Obsidian not lying on their webpage is that the permission for "android.permission.INTERNET" is only used for 1. Logging into an account and 2. Allowing for their Sync Notes Feature.
-Based on the evidence I have sifted through and pulled from the Google Pixel 3 Android Version 13, it is clear that Obsidian.md is telling the truth, and they keep everything by default offline.
+Based on the evidence I have sifted through and pulled from the Google Pixel 4a Android Version 13, it is clear that Obsidian.md is telling the truth, and they keep everything by default offline.
 
 
 <hr>
