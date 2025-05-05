@@ -2,10 +2,10 @@
 # Table of Contents
 
 - [Concept](#Concept)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#Overview)
+- [Testing](#Testing)
+- [Analysis](#Analysis)
+- [References](#References)
 
 ---
 
@@ -39,16 +39,16 @@ Privacy Focused Note taking application
 
 <hr>
 
-<h2>Overview:</h2> 
+<h2>#Overview</h2> 
 What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically
 
-<h2>Testing:</h2>
+<h2>#Testing</h2>
 the step by step process I made and times of what i did and when i did them
 
-<h2>Analysis:</h2>
+<h2>#Analysis</h2>
 what did i do specifically to gather the information and stuff
 
-
+<h2>#References</h2>
 
 
 
