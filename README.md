@@ -51,10 +51,10 @@ Privacy Focused Note taking application
 
 <h2>#Testing</h2>
 I preformed three acquisitions of data:
-First a test acquisition to see what I could get with a rooted emulated Pixel 3 Android V.13 phone with andriller:
+The first test acquisition to see what I could get with a rooted emulated Pixel 3 Android V.13 phone with andriller:
 This was done to get a good idea of what I was working with starting out while awaiting the phone I was ordering in the mail.
 
-Second an acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
+The second Acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation and utilization of the applciation, Full File System (ls -alR /):
 This was done to get a starting point to any and all changes that the Obsidian.md application makes within the file system.
 
 The Third and final acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md.
@@ -104,14 +104,14 @@ This was done with 5 minute intervals and the following timed script:
 | 23:15 EDT 05/04/2025 | Close Application |
 | 23:20 EDT 05/04/2025 | Force Stop Application from running in background in app settings |
 
-After the third acquisition, the 
-
+Now that we know where to look, we can now extract these artifacts and parse through the data!
 
 <hr>
 
 
 <h2>#Analysis</h2>
-what did i do specifically to gather the information and stuff
+Here is what I found!
+<!--what did i do specifically to gather the information and stuff-->
 
 
 <hr>
