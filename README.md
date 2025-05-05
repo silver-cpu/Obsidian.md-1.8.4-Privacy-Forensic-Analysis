@@ -1,11 +1,11 @@
 # Obsidian.md-1.8.4-Privacy-Forensic-Analysis
 
 <h2>CONCEPT:</h2>
-<h3>What is Obsidian?:</h3> 
+<h3>What is <a href="https://obsidian.md">Obsidian</a>?:</h3> 
 Privacy Focused Note taking application
 <h3>What is it used for?:</h3>
 Notes, Journaling, Research, Brainstorming and Visualization.
-<img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" href="https://obsidian.md" width="500"  />
+<img src="https://obsidian.md/images/screenshot-1.0-hero-combo.png" alt="photo of usage" width="500"  />
 <h3>What are they marketed as?: </h3>
 <ol>
 <li>Privacy focused</li>
@@ -16,7 +16,6 @@ Notes, Journaling, Research, Brainstorming and Visualization.
 <li>Quick, Easy Access</li>
 <li>Heavily Customizable</li>
 </ol>
-<img src="" alt="" href="" width="500"  />
 <h3>What do they provide?: </h3>
 <ol>
 <li>Links between notes</li>
