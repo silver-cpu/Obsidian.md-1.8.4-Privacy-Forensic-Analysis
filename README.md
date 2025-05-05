@@ -40,10 +40,48 @@ Privacy Focused Note taking application
 <hr>
 
 <h2>#Overview</h2> 
-What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically
+
+| What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically |
+|--------------------------------------------------------------------------------------------------|
+
+
+
+
+
 
 <h2>#Testing</h2>
-the step by step process I made and times of what i did and when i did them
+I preformed three acquisitions of data:
+First a test acquisition to see what I could get with a rooted emulated Pixel 3 Android V.13 phone with andriller:
+This was done to get a good idea of what I was working with starting out while awaiting the phone I was ordering in the mail.
+
+Second an acquisition of a physical, rooted Pixel 3 Phone to get the before and after installation, Full File System (ls -alR /):
+This was done to get a starting point to any and all changes that the Obsidian.md application makes within the file system.
+
+The Third and final acquisition was of the same rooted Pixel 3 Android V.13 Phone to re-perform similar tasks done in the second acquisition, although this time only looking for information that pretained to Obsidian.md
+This was done with 5 minute intervals and the following timed script:
+Actions in Order:
+
+
+|**Time/Date**|**Action Taken**|
+|22:00 EDT 05/04/2025|Turn On Phone|
+|22:05 EDT 05/04/2025|Unlock Phone|
+|22:10 EDT 05/04/2025|Install APP through ADB|
+|22:15 EDT 05/04/2025|Open APP|
+|22:20 EDT 05/04/2025|Grant Access to Managing all file permission|
+|22:25 EDT 05/04/2025|Name:ObsidianVault, location: Documents, and Create Vault|
+|22:30 EDT 05/04/2025|New Note|
+|22:35 EDT 05/04/2025|Title: Note1 Info: Lorem ipsum|
+|22:40 EDT 05/04/2025|Add [[Note2]] to Note1|
+|22:45 EDT 05/04/2025|Click on [[Note2]] to create new note named Note2|
+|22:50 EDT 05/04/2025|Add Ipsum lorem to Note2|
+|22:55 EDT 05/04/2025|Create a Folder named ObsFolder1|
+|23:00 EDT 05/04/2025|Drag Note2 into ObsFolder1|
+|23:05 EDT 05/04/2025|Screenshot the screen|
+|23:10 EDT 05/04/2025|Insert Screenshot to Note2|
+| 23:15 EDT 05/04/2025 | Close Application |
+| 23:20 EDT 05/04/2025 | Force Stop Application from running in background in app settings |
+|----------------------|-------------------------------------------------------------------|
+
 
 <h2>#Analysis</h2>
 what did i do specifically to gather the information and stuff
