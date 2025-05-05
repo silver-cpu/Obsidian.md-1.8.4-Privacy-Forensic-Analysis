@@ -1,28 +1,28 @@
 # Obsidian.md-1.8.4-Privacy-Forensic-Analysis
 
-<h1>CONCEPT:</h1>
-What is Obsidian?: 
-Privacy Focused Note taking application
-What is it used for?: 
-Notes, Journaling, Research
-What are they marketed as?: 
-Privacy focused
-No one else can read them.
-Entirely stored offline
-Quick, Easy Access
-Heavily Customizable
-What do they provide?: 
-Links between notes
-PinBoard-Like Visualizer Graph for Interactive Ideas
-Canvas for diagramming and brainstorming ideas
-Thousands of User Created Plugins
-Standardized non-proprietarily readable file types .md
-Paid-for service
-Syncing notes across devices
-End to end encryption
-Collaboration on shared vaults
-Publishing
-Easy ability to Publish notes to web
-Theme customization
-How do I know them?: 
-I actively use their Windows and Linux versions on PC for note taking.
+<h2>CONCEPT:</h2>
+<h3>What is Obsidian?:</h3> 
+<li>Privacy Focused Note taking application</li>
+<h3>What is it used for?:</h3>
+<li>Notes, Journaling, Research</li>
+<h3>What are they marketed as?: </h3>
+<li>Privacy focused</li>
+<li>No one else can read them.</li>
+<li>Entirely stored offline</li>
+<li>Quick, Easy Access</li>
+<li>Heavily Customizable</li>
+<h3>What do they provide?: </h3>
+<li>Links between notes</li>
+<li>PinBoard-Like Visualizer Graph for Interactive Ideas</li>
+<li>Canvas for diagramming and brainstorming ideas</li>
+<li>Thousands of User Created Plugins</li>
+<li>Standardized non-proprietarily readable file types .md</li>
+<li>Paid-for service</li>
+<li>Syncing notes across devices</li>
+<li>End to end encryption</li>
+<li>Collaboration on shared vaults</li>
+<li>Publishing</li>
+<li>Easy ability to Publish notes to web</li>
+<li>Theme customization</li>
+<h3>How do I know them?: </h3>
+<li>I actively use their Windows and Linux versions on PC for note taking.</li>
