@@ -184,6 +184,7 @@ apk2url pulls string values from within all of the files of base.apk looking for
 |<img src="./Images/url1.png" />|<img src="./Images/url2.png" />|
 
 <img src="./Images/notrealchineseipaddress.png" />
+*(A chinese telecom ip address false flag from the mermaid.min.js file.)*
 
 <hr>
 <br><br><br>
