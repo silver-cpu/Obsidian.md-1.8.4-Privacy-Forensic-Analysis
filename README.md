@@ -154,6 +154,10 @@ total 4
 <h3>.../base.apk</h3>
 There are many artifacts within this apk file, which is a duplicate of the original Obsidian
 
+|Items of Note|Purpose|
+|-|-|
+| | |
+| | |
 
 <h3>/md.obsidian/app_webview/Default/</h3>
 
