@@ -41,7 +41,7 @@ Privacy Focused Note taking application
 <br><br><br>
 <h2>#Overview</h2> 
 
-| What will I be looking at specifically give examples, my purpose in searching around, what is my bottom line, what am i going to look at specifically |
+| I will be focusing on gathering information involving internet connection to confirm if Obsidian.md is a good choice for privacy-concerned individuals. I will be focusing on finding all files found on the local system, the permissions in the apk file, database information when it concerns the web and modules utilized within the actual application to see if they are problematic. |
 |----------------------------|
 
 
@@ -181,8 +181,8 @@ Shows no data being stored within the databases involving Web Data nor Cookies.
 
 |Items of Note|Purpose|
 |-|-|
-|-|-|
-|-|-|
+|Obsidian.md Links|-|
+|IPs to other countries|-|
 |-|-|
 
 
