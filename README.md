@@ -119,10 +119,9 @@ Now that we know where to look, we can now extract these artifacts and parse thr
 Here is what I found!
 <!--what did i do specifically to gather the information and stuff-->
 <h3>/sdcard/Documents/ObsidianVault/</h3>
-Within directory are the following files:
+Within this directory are the following files:
 
 ```
-
 ls -alR /sdcard/Documents/ObsidianVault
 /sdcard/Documents/ObsidianVault:
 total 66
@@ -141,11 +140,15 @@ total 16
 /sdcard/Documents/ObsidianVault/ObsFolder1:
 total 4
 -rw-rw---- 1 root everybody 47 2025-05-04 23:10 Note2.md
+```
+|Purpose|Code|
+|-|-|
+|.obsidian houses the Obsidian Plugin Settings|{"file-explorer": true,"global-search": true,"switcher": true, "graph": true, "backlink": true, "canvas": true, "outgoing-link": true, "tag-pane": true, "properties": false, "page-preview": true, "daily-notes": true, "templates": true, "note-composer": true, "command-palette": true, "slash-command": false, "editor-status": true, "bookmarks": true, "markdown-importer": false, "zk-prefixer": false, "random-note": false, "outline": true, "word-count": true, "slides": false, "audio-recorder": false, "workspaces": false, "file-recovery": true, "publish": false, "sync": true} |
+|The json map of the connections/organization of the notes|  |
 
 <h3>.../base.apk</h3>
 There are many artifacts within this apk file, which is a duplicate of the original Obsidian
 
-```
 
 <h3>/md.obsidian/app_webview/Default/</h3>
 
