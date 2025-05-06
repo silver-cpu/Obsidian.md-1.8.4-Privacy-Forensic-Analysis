@@ -193,7 +193,8 @@ apk2url pulls string values from within all of the files of base.apk looking for
 <h2>#Conclusion</h2>
 Although Obsidian.md has the permission "android.permission.INTERNET" within AndroidManifest.xml I am not convinced that the application, without paying for and applying the sync features, connects to the internet without our knowledge. In the databases for specifically WebStorage, I found an address used as the "storage_key" although it was a localhost address, which does not connect to the internet. The application did not have ip addresses or domains within their java code that were not commented documentation explaining the source of a imported library or a link on their application to their own website. The files are saved in one location on your device in the place where I decided initially, it is not referenced anywhere else. All of their files are .md within folders, and are managed by a json file utilizing getcapacitor. A likely situation if Obsidian not lying on their webpage is that the permission for "android.permission.INTERNET" is only used for 1. Logging into an account and 2. Allowing for their Sync Notes Feature. <br>
 Based on the evidence I have sifted through and pulled from the Google Pixel 4a Android Version 13, it is clear that Obsidian.md is telling the truth, and they keep everything by default offline.
-
+<br><br>
+However, with this amount of unencrypted data, although local, I would not say this is a very secure application.
 
 <hr>
 <br><br><br>
