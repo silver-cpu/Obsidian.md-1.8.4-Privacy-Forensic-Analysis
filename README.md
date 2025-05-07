@@ -36,7 +36,7 @@ Privacy focused note taking application with a large amount of customization fea
 
 <h3>How did I learn about this tool?: </h3>
 
-| <div>While researching during college I became addicted to using the "red twine on pin board" technic, and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking.</div> | <img src="./Images/web.png" width="1000" /> |
+| <div>While researching during college I became addicted to using the "red twine on pin board" technique, and I actively researched something akin to that to use their Windows and Linux versions on PC for note taking.</div> | <img src="./Images/web.png" width="1000" /> |
 |-|-|
 
 <h5><a href="https://obsidian.md/download">DownloadLink</a></h5>
